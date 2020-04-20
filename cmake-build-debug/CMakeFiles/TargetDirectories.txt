@@ -1,0 +1,3 @@
+C:/Users/yairs/CLionProjects/boundingBox/cmake-build-debug/CMakeFiles/boundingBox.dir
+C:/Users/yairs/CLionProjects/boundingBox/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/yairs/CLionProjects/boundingBox/cmake-build-debug/CMakeFiles/rebuild_cache.dir
