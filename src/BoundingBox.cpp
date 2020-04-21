@@ -48,7 +48,7 @@ bool BoundingBox::isColliding(BoundingBox &other) {
     }
 }
 
-
+//
 /**
  * Function which checks if a Bounding box doesn't have negative parameters or has no area.
  * @return True is the Bounding box is valid.
