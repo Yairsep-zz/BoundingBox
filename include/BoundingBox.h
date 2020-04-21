@@ -21,7 +21,7 @@ using namespace std;
 class BoundingBox {
 
 public:
-//
+
     BoundingBox(string name, float x, float y, float width, float height);
     string name;
     float x;

@@ -69,7 +69,7 @@ void test_sorting2(){
         }
     }
 }
-//
+
 //int main(int argc, char** argv) {
 //
 //    BoundingBox *rec1 = new BoundingBox("rec1", 0 , 0 , 0 , 0);

@@ -54,7 +54,7 @@ int main(int argc, char** argv) {
     BoundingBox *rec2= new BoundingBox("rec2", 5 , 5 , 5 , 5);
     BoundingBox *rec3 = new BoundingBox( "rec3", 2 , 2 , 2 , 2);
     BoundingBox *rec4 = new BoundingBox( "rec4" , 0 , 0 , 1 , 1);
-//
+
     vector<BoundingBox> input;
     input.push_back(*rec1);
     input.push_back(*rec2);
