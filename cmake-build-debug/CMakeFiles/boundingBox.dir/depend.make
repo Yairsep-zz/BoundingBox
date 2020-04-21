@@ -7,5 +7,6 @@ CMakeFiles/boundingBox.dir/src/BoundingBox.cpp.obj: ../src/BoundingBox.cpp
 CMakeFiles/boundingBox.dir/src/main.cpp.obj: ../include/BoundingBox.h
 CMakeFiles/boundingBox.dir/src/main.cpp.obj: ../src/main.cpp
 
+CMakeFiles/boundingBox.dir/src/tests.cpp.obj: ../include/BoundingBox.h
 CMakeFiles/boundingBox.dir/src/tests.cpp.obj: ../src/tests.cpp
 

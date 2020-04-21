@@ -5,15 +5,13 @@
 #include <iostream>
 #include <algorithm>
 #include "../include/BoundingBox.h"
-
-
 using namespace std;
 
-/**
-    Returns the volume of a sphere with the specified radius.
 
-    @param radius The radius of the circle.
-    @return The volume of the sphere.
+/**
+ *Comparing areas sizes between two Bounding boxes.
+ *@param two Bounding boxes
+ *@return True if b's area is larger than a's area.
 */
 bool compareByArea(BoundingBox a, BoundingBox b)
 {
@@ -21,12 +19,10 @@ bool compareByArea(BoundingBox a, BoundingBox b)
 }
 
 /**
-    Returns the volume of a sphere with the specified radius.
-
-    @param radius The radius of the circle.
-    @return The volume of the sphere.
+ *Returns a vector of Bounding boxes sorted by their area from the smallest to the largest.
+ *@param vector input of unsorted bounding boxes
+ *@return sorted vector of Bounding boxes without intersecting objects.
 */
-
 vector<BoundingBox> BoundingBox::boxVectorSort(vector<BoundingBox> list) {
 
     vector<BoundingBox> output;
@@ -51,55 +47,28 @@ vector<BoundingBox> BoundingBox::boxVectorSort(vector<BoundingBox> list) {
     return output;
 }
 
-//vector<BoundingBox> BoundingBox::boxArraySort(BoundingBox boxArr[]) {
-//
-//    int size = sizeof(*boxArr);
-//    vector<BoundingBox> output;
-//    //First remove intersected objects
-//    for (int i = 0 ; i < size ; i++) {
-//        if (!isValidBox()){
-//            cout << "Invalid box at index " + to_string(i);
-//        }
-//        bool valid = true;
-//        for (int j = 0; j < size; j++) {
-//            if (i != j && boxArr[i].isColliding(boxArr[j])) {
-//                valid = false;
-//            }
-//        }
-//        if (valid){
-//            output.push_back(boxArr[i]);
-//        }
-//    }
-//    //Sorting output by area;
-//    sort(output.begin() , output.end(), compareByArea);
-//    return output;
-//}
 
 int main(int argc, char** argv) {
 
-    BoundingBox *rec1 = new BoundingBox("rec1", 0 , 0 , 2 , 2);
-    BoundingBox *rec2= new BoundingBox("rec2", 80 , 80 , 80 , 80);
+    BoundingBox *rec1 = new BoundingBox("rec1", 20 , 20 , 20 , 20);
+    BoundingBox *rec2= new BoundingBox("rec2", 5 , 5 , 5 , 5);
     BoundingBox *rec3 = new BoundingBox( "rec3", 2 , 2 , 2 , 2);
-    BoundingBox *rec4 = new BoundingBox( "rec4" , 30 , 30 , 3 , 3);
+    BoundingBox *rec4 = new BoundingBox( "rec4" , 0 , 0 , 1 , 1);
 
+    vector<BoundingBox> input;
+    input.push_back(*rec1);
+    input.push_back(*rec2);
+    input.push_back(*rec3);
+    input.push_back(*rec4);
 
-//    BoundingBox boxArr[4] = {*a,*b,*c,*d};
-//    vector<BoundingBox> temp = BoundingBox::boxArraySort(boxArr);
-
-    vector<BoundingBox> test;
-    test.push_back(*rec1);
-    test.push_back(*rec2);
-    test.push_back(*rec3);
-    test.push_back(*rec4);
-
-    vector<BoundingBox> temp = BoundingBox::boxVectorSort(test);
-
-    for (int i = 0 ; i < temp.size() ; i++){
-        if (i != temp.size()-1){
-            cout << temp[i].name + " < ";
+    vector<BoundingBox> output = BoundingBox::boxVectorSort(input);
+    cout << "Bounding boxes sorted by area which are separated:" << endl;
+    for (int i = 0 ; i < output.size() ; i++){
+        if (i != output.size()-1){
+            cout << output[i].name + " < ";
         }
         else{
-            cout << temp[i].name;
+            cout << output[i].name << endl;
         }
     }
 }
