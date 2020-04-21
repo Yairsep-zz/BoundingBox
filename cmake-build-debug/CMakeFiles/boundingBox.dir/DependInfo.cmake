@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/yairs/CLionProjects/boundingBox/main.cpp" "C:/Users/yairs/CLionProjects/boundingBox/cmake-build-debug/CMakeFiles/boundingBox.dir/main.cpp.obj"
-  "C:/Users/yairs/CLionProjects/boundingBox/src/boundingBox.cpp" "C:/Users/yairs/CLionProjects/boundingBox/cmake-build-debug/CMakeFiles/boundingBox.dir/src/boundingBox.cpp.obj"
+  "C:/Users/yairs/CLionProjects/boundingBox/src/BoundingBox.cpp" "C:/Users/yairs/CLionProjects/boundingBox/cmake-build-debug/CMakeFiles/boundingBox.dir/src/BoundingBox.cpp.obj"
   "C:/Users/yairs/CLionProjects/boundingBox/src/main.cpp" "C:/Users/yairs/CLionProjects/boundingBox/cmake-build-debug/CMakeFiles/boundingBox.dir/src/main.cpp.obj"
+  "C:/Users/yairs/CLionProjects/boundingBox/src/tests.cpp" "C:/Users/yairs/CLionProjects/boundingBox/cmake-build-debug/CMakeFiles/boundingBox.dir/src/tests.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

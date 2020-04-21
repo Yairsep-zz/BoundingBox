@@ -122,59 +122,32 @@ boundingBox/fast:
 	$(MAKE) -f CMakeFiles\boundingBox.dir\build.make CMakeFiles/boundingBox.dir/build
 .PHONY : boundingBox/fast
 
-main.obj: main.cpp.obj
+src/BoundingBox.obj: src/BoundingBox.cpp.obj
 
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\boundingBox.dir\build.make CMakeFiles/boundingBox.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\boundingBox.dir\build.make CMakeFiles/boundingBox.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\boundingBox.dir\build.make CMakeFiles/boundingBox.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-src/boundingBox.obj: src/boundingBox.cpp.obj
-
-.PHONY : src/boundingBox.obj
+.PHONY : src/BoundingBox.obj
 
 # target to build an object file
-src/boundingBox.cpp.obj:
-	$(MAKE) -f CMakeFiles\boundingBox.dir\build.make CMakeFiles/boundingBox.dir/src/boundingBox.cpp.obj
-.PHONY : src/boundingBox.cpp.obj
+src/BoundingBox.cpp.obj:
+	$(MAKE) -f CMakeFiles\boundingBox.dir\build.make CMakeFiles/boundingBox.dir/src/BoundingBox.cpp.obj
+.PHONY : src/BoundingBox.cpp.obj
 
-src/boundingBox.i: src/boundingBox.cpp.i
+src/BoundingBox.i: src/BoundingBox.cpp.i
 
-.PHONY : src/boundingBox.i
+.PHONY : src/BoundingBox.i
 
 # target to preprocess a source file
-src/boundingBox.cpp.i:
-	$(MAKE) -f CMakeFiles\boundingBox.dir\build.make CMakeFiles/boundingBox.dir/src/boundingBox.cpp.i
-.PHONY : src/boundingBox.cpp.i
+src/BoundingBox.cpp.i:
+	$(MAKE) -f CMakeFiles\boundingBox.dir\build.make CMakeFiles/boundingBox.dir/src/BoundingBox.cpp.i
+.PHONY : src/BoundingBox.cpp.i
 
-src/boundingBox.s: src/boundingBox.cpp.s
+src/BoundingBox.s: src/BoundingBox.cpp.s
 
-.PHONY : src/boundingBox.s
+.PHONY : src/BoundingBox.s
 
 # target to generate assembly for a file
-src/boundingBox.cpp.s:
-	$(MAKE) -f CMakeFiles\boundingBox.dir\build.make CMakeFiles/boundingBox.dir/src/boundingBox.cpp.s
-.PHONY : src/boundingBox.cpp.s
+src/BoundingBox.cpp.s:
+	$(MAKE) -f CMakeFiles\boundingBox.dir\build.make CMakeFiles/boundingBox.dir/src/BoundingBox.cpp.s
+.PHONY : src/BoundingBox.cpp.s
 
 src/main.obj: src/main.cpp.obj
 
@@ -203,6 +176,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles\boundingBox.dir\build.make CMakeFiles/boundingBox.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/tests.obj: src/tests.cpp.obj
+
+.PHONY : src/tests.obj
+
+# target to build an object file
+src/tests.cpp.obj:
+	$(MAKE) -f CMakeFiles\boundingBox.dir\build.make CMakeFiles/boundingBox.dir/src/tests.cpp.obj
+.PHONY : src/tests.cpp.obj
+
+src/tests.i: src/tests.cpp.i
+
+.PHONY : src/tests.i
+
+# target to preprocess a source file
+src/tests.cpp.i:
+	$(MAKE) -f CMakeFiles\boundingBox.dir\build.make CMakeFiles/boundingBox.dir/src/tests.cpp.i
+.PHONY : src/tests.cpp.i
+
+src/tests.s: src/tests.cpp.s
+
+.PHONY : src/tests.s
+
+# target to generate assembly for a file
+src/tests.cpp.s:
+	$(MAKE) -f CMakeFiles\boundingBox.dir\build.make CMakeFiles/boundingBox.dir/src/tests.cpp.s
+.PHONY : src/tests.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -212,15 +212,15 @@ help:
 	@echo ... boundingBox
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... src/boundingBox.obj
-	@echo ... src/boundingBox.i
-	@echo ... src/boundingBox.s
+	@echo ... src/BoundingBox.obj
+	@echo ... src/BoundingBox.i
+	@echo ... src/BoundingBox.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/tests.obj
+	@echo ... src/tests.i
+	@echo ... src/tests.s
 .PHONY : help
 
 

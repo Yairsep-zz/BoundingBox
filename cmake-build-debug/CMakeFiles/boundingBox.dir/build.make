@@ -56,22 +56,9 @@ include CMakeFiles/boundingBox.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/boundingBox.dir/flags.make
 
-CMakeFiles/boundingBox.dir/main.cpp.obj: CMakeFiles/boundingBox.dir/flags.make
-CMakeFiles/boundingBox.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\yairs\CLionProjects\boundingBox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/boundingBox.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\boundingBox.dir\main.cpp.obj -c C:\Users\yairs\CLionProjects\boundingBox\main.cpp
-
-CMakeFiles/boundingBox.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boundingBox.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\yairs\CLionProjects\boundingBox\main.cpp > CMakeFiles\boundingBox.dir\main.cpp.i
-
-CMakeFiles/boundingBox.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boundingBox.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\yairs\CLionProjects\boundingBox\main.cpp -o CMakeFiles\boundingBox.dir\main.cpp.s
-
 CMakeFiles/boundingBox.dir/src/main.cpp.obj: CMakeFiles/boundingBox.dir/flags.make
 CMakeFiles/boundingBox.dir/src/main.cpp.obj: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\yairs\CLionProjects\boundingBox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/boundingBox.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\yairs\CLionProjects\boundingBox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/boundingBox.dir/src/main.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\boundingBox.dir\src\main.cpp.obj -c C:\Users\yairs\CLionProjects\boundingBox\src\main.cpp
 
 CMakeFiles/boundingBox.dir/src/main.cpp.i: cmake_force
@@ -82,31 +69,44 @@ CMakeFiles/boundingBox.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boundingBox.dir/src/main.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\yairs\CLionProjects\boundingBox\src\main.cpp -o CMakeFiles\boundingBox.dir\src\main.cpp.s
 
-CMakeFiles/boundingBox.dir/src/boundingBox.cpp.obj: CMakeFiles/boundingBox.dir/flags.make
-CMakeFiles/boundingBox.dir/src/boundingBox.cpp.obj: ../src/boundingBox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\yairs\CLionProjects\boundingBox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/boundingBox.dir/src/boundingBox.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\boundingBox.dir\src\boundingBox.cpp.obj -c C:\Users\yairs\CLionProjects\boundingBox\src\boundingBox.cpp
+CMakeFiles/boundingBox.dir/src/BoundingBox.cpp.obj: CMakeFiles/boundingBox.dir/flags.make
+CMakeFiles/boundingBox.dir/src/BoundingBox.cpp.obj: ../src/BoundingBox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\yairs\CLionProjects\boundingBox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/boundingBox.dir/src/BoundingBox.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\boundingBox.dir\src\BoundingBox.cpp.obj -c C:\Users\yairs\CLionProjects\boundingBox\src\BoundingBox.cpp
 
-CMakeFiles/boundingBox.dir/src/boundingBox.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boundingBox.dir/src/boundingBox.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\yairs\CLionProjects\boundingBox\src\boundingBox.cpp > CMakeFiles\boundingBox.dir\src\boundingBox.cpp.i
+CMakeFiles/boundingBox.dir/src/BoundingBox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boundingBox.dir/src/BoundingBox.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\yairs\CLionProjects\boundingBox\src\BoundingBox.cpp > CMakeFiles\boundingBox.dir\src\BoundingBox.cpp.i
 
-CMakeFiles/boundingBox.dir/src/boundingBox.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boundingBox.dir/src/boundingBox.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\yairs\CLionProjects\boundingBox\src\boundingBox.cpp -o CMakeFiles\boundingBox.dir\src\boundingBox.cpp.s
+CMakeFiles/boundingBox.dir/src/BoundingBox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boundingBox.dir/src/BoundingBox.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\yairs\CLionProjects\boundingBox\src\BoundingBox.cpp -o CMakeFiles\boundingBox.dir\src\BoundingBox.cpp.s
+
+CMakeFiles/boundingBox.dir/src/tests.cpp.obj: CMakeFiles/boundingBox.dir/flags.make
+CMakeFiles/boundingBox.dir/src/tests.cpp.obj: ../src/tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\yairs\CLionProjects\boundingBox\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/boundingBox.dir/src/tests.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\boundingBox.dir\src\tests.cpp.obj -c C:\Users\yairs\CLionProjects\boundingBox\src\tests.cpp
+
+CMakeFiles/boundingBox.dir/src/tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boundingBox.dir/src/tests.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\yairs\CLionProjects\boundingBox\src\tests.cpp > CMakeFiles\boundingBox.dir\src\tests.cpp.i
+
+CMakeFiles/boundingBox.dir/src/tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boundingBox.dir/src/tests.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\yairs\CLionProjects\boundingBox\src\tests.cpp -o CMakeFiles\boundingBox.dir\src\tests.cpp.s
 
 # Object files for target boundingBox
 boundingBox_OBJECTS = \
-"CMakeFiles/boundingBox.dir/main.cpp.obj" \
 "CMakeFiles/boundingBox.dir/src/main.cpp.obj" \
-"CMakeFiles/boundingBox.dir/src/boundingBox.cpp.obj"
+"CMakeFiles/boundingBox.dir/src/BoundingBox.cpp.obj" \
+"CMakeFiles/boundingBox.dir/src/tests.cpp.obj"
 
 # External object files for target boundingBox
 boundingBox_EXTERNAL_OBJECTS =
 
-boundingBox.exe: CMakeFiles/boundingBox.dir/main.cpp.obj
 boundingBox.exe: CMakeFiles/boundingBox.dir/src/main.cpp.obj
-boundingBox.exe: CMakeFiles/boundingBox.dir/src/boundingBox.cpp.obj
+boundingBox.exe: CMakeFiles/boundingBox.dir/src/BoundingBox.cpp.obj
+boundingBox.exe: CMakeFiles/boundingBox.dir/src/tests.cpp.obj
 boundingBox.exe: CMakeFiles/boundingBox.dir/build.make
 boundingBox.exe: CMakeFiles/boundingBox.dir/linklibs.rsp
 boundingBox.exe: CMakeFiles/boundingBox.dir/objects1.rsp

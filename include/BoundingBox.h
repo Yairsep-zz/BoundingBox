@@ -5,17 +5,31 @@
 #ifndef BOUNDINGBOX_BOUNDINGBOX_H
 #define BOUNDINGBOX_BOUNDINGBOX_H
 
+#include <string>
+#include <vector>
+
+using namespace std;
 
 class BoundingBox {
 
 public:
 
-    long x;
-    long y;
-    long height;
-    long width;
-    long area;
+//    BoundingBox();
+    BoundingBox(string name, float x, float y, float width, float height);
 
+    string name;
+    float x;
+    float y;
+    float width;
+    float height;
+
+    float area();
+    bool isColliding(BoundingBox& other);
+    static vector<BoundingBox> boxVectorSort(vector<BoundingBox> list);
+
+    vector<BoundingBox> boxArraySort(BoundingBox *boxArr);
+
+    bool isValidBox();
 };
 
 

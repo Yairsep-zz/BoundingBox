@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/boundingBox.dir/main.cpp.obj"
-  "CMakeFiles/boundingBox.dir/src/boundingBox.cpp.obj"
+  "CMakeFiles/boundingBox.dir/src/BoundingBox.cpp.obj"
   "CMakeFiles/boundingBox.dir/src/main.cpp.obj"
+  "CMakeFiles/boundingBox.dir/src/tests.cpp.obj"
   "boundingBox.exe"
   "boundingBox.exe.manifest"
   "boundingBox.pdb"

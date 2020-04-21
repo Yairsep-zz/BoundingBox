@@ -80,16 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/yairs/CLionProjects/boundingBox/main.cpp">
+		<Unit filename="C:/Users/yairs/CLionProjects/boundingBox/include/BoundingBox.h">
 			<Option target="boundingBox"/>
 		</Unit>
-		<Unit filename="C:/Users/yairs/CLionProjects/boundingBox/src/boundingBox.cpp">
-			<Option target="boundingBox"/>
-		</Unit>
-		<Unit filename="C:/Users/yairs/CLionProjects/boundingBox/src/boundingBox.h">
+		<Unit filename="C:/Users/yairs/CLionProjects/boundingBox/src/BoundingBox.cpp">
 			<Option target="boundingBox"/>
 		</Unit>
 		<Unit filename="C:/Users/yairs/CLionProjects/boundingBox/src/main.cpp">
+			<Option target="boundingBox"/>
+		</Unit>
+		<Unit filename="C:/Users/yairs/CLionProjects/boundingBox/src/tests.cpp">
 			<Option target="boundingBox"/>
 		</Unit>
 		<Unit filename="C:/Users/yairs/CLionProjects/boundingBox/CMakeLists.txt">
