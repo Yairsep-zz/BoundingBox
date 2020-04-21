@@ -1,5 +1,6 @@
 # BoundingBox
 I represented Boundig box by x , y, width and height parameters, as looking in Cartesian coordinate system.
+
 x  represents the x coordinate of the button left of the object, meaning x + width is the coordinate of the right corner of the object.
 y  represents the y coordinate of the button left of the object, meaning y + height is the coordinate of the upper side corner of the object.
 
